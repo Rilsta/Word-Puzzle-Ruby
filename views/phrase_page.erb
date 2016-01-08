@@ -1,4 +1,13 @@
 <%= erb :_header %>
 
-<h1 class="jumbotron">Guess the phrase!</h1>
-<%= @final_phrase %>
+<div class="jumbotron">
+  <h1>Guess the phrase!</h1>
+</div>
+
+<div class="container">
+  <h3><%= @final_phrase %></h3>
+  <a href="/"><button class="btn btn-primary btn-lg" type="submit">Again?</button></a>
+</div>
+<div class="image">
+  <img src= 'https://media.giphy.com/media/a5viI92PAF89q/giphy.gif'>
+</div>

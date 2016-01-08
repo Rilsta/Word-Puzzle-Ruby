@@ -1,16 +1,25 @@
 .jumbotron{
   text-align: center;
+  background-color: #95A1C3;
+  color:#4A5061
 }
 .container{
   text-align: center;
+  color:#4A5061;
 }
 
 .col-center {
   float: none;
   margin: 0 auto;
 }
-
 input {
   margin-bottom: 5px;
   text-align: center;
+}
+.image{
+  text-align: center;
+  margin-top: 50px;
+}
+body{
+  background-color: #E9ECF3;
 }
