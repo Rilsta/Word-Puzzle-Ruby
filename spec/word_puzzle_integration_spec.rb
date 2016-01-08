@@ -10,4 +10,9 @@ describe('the word_puzzle path', {:type => :feature}) do
     click_button('Submit')
     expect(page).to have_content("H-ll-, th-t's - d-sh-ng -rm-n- s--t!")
   end
+  it('shows the original sentence after button is clicked') do
+    visit('./views/phrase_page.erb')
+    click_button('Reveal')
+    expect(page).to have_content("Hello, that's a dashing Armani suit!")
+  end
 end
