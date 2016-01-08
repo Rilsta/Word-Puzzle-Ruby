@@ -12,4 +12,9 @@ class String
     end
     new_sentence.join()
   end
+
+  define_method(:unchanged_sentence)do
+    original_sentence = self
+    return original_sentence
+  end
 end
