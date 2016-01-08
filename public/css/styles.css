@@ -1,0 +1,16 @@
+.jumbotron{
+  text-align: center;
+}
+.container{
+  text-align: center;
+}
+
+.col-center {
+  float: none;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 5px;
+  text-align: center;
+}

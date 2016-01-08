@@ -1,7 +1,19 @@
-<h1>Let's play Guess the Phrase!</h1>
-<form action="/typed_phrase">
-  <label for="typed_phrase">Type a phrase below, hit submit, grab a friend, and see if they can
-  guess what you typed!</label>
-  <input type="text" name="typed_phrase" value="">
-  <button type="submit" name="button">Submit</button>
-</form>
+<%= erb :_header %>
+
+<div class ="jumbotron">
+  <h1>Let's play Guess the Phrase!</h1>
+  <h4>Type a phrase below and hit submit. Then grab a friend and see if they can
+  guess what you typed!<h4>
+</div>
+
+<div class="container">
+  <div class = "row">
+    <form action="/typed_phrase">
+      <div class="form-group col-md-6 col-center">
+        <label for="typed_phrase">Enter phrase here:</label>
+        <input class="form-control" type="text" name="typed_phrase" value="">
+        <button class="btn btn-success" type="submit" name="button">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>

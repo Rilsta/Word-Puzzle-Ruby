@@ -31,9 +31,3 @@ describe('String#word_puzzle') do
     expect("I went to the store!".word_puzzle()).to(eq("- w-nt t- th- st-r-!"))
   end
 end
-
-describe('String#unchanged_sentence') do
-  it("returns the same phrase that was inputted") do
-    expect("Wow, cool.".unchanged_sentence()).to(eq("Wow, cool."))
-  end
-end
