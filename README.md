@@ -12,6 +12,10 @@ Example of Input and resulting output:
 * My idea of a real treat is Magic Mountain without standing in line. Alan Rickman
 * M- -d-- -f - r--l tr--t -s M-g-c M--nt--n w-th--t st-nd-ng -n l-n-. -l-n R-ckm-n
 
+##Heroku Link
+
+* https://secure-oasis-7525.herokuapp.com/
+
 ## Installation
 Install by cloning the repository listed below
 * https://github.com/Rilsta/word_puzzle_ruby.git
