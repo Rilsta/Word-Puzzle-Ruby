@@ -14,7 +14,7 @@ Example of Input and resulting output:
 
 ## Installation
 Install by cloning the repository listed below
-* https://github.com/Rilsta/PingPong.git
+* https://github.com/Rilsta/word_puzzle_ruby.git
 
 ## License
 MIT License. Copyright 2015 Epicodus.

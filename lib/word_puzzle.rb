@@ -11,6 +11,6 @@ class String
         new_sentence.push(letter)
       end
     end
-    new_sentence.join()
+    new_sentence = new_sentence.join()
   end
 end
