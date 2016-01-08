@@ -16,10 +16,16 @@ describe('String#word_puzzle') do
   end
   it('deals with capitalized letters') do
     expect("Oregon".word_puzzle()).to(eq("-r-g-n"))
+    expect("BAsebAlL".word_puzzle()).to(eq("B-s-b-lL"))
   end
   it('deals with punctuation and symbols') do
-    expect("Yo-yo!".word_puzzle()).to(eq("y--y-!"))
+    expect("Yo-yo!".word_puzzle()).to(eq("Y--y-!"))
     expect("croissant?".word_puzzle()).to(eq("cr--ss-nt?"))
     expect("!@A#%{b$%^e&*()g}".word_puzzle()).to(eq("!@-#%{b$%^-&*()g}"))
   end
+  it('deals with numbers within and outside words') do
+    expect("9".word_puzzle()).to(eq("9"))
+    expect("fr1ndsh1p".word_puzzle()).to(eq("fr1ndsh1p"))
+  end
+
 end

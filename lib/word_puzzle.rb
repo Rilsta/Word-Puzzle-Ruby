@@ -1,7 +1,7 @@
 class String
   define_method(:word_puzzle) do
-    vowels = ["a", "e", "i", "o", "u"]
-    old_sentence = self.downcase().split("")
+    vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+    old_sentence = self.to_s().split("")
     new_sentence = []
     old_sentence.each()do |letter|
       if vowels.include?(letter)
