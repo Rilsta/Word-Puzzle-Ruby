@@ -27,5 +27,8 @@ describe('String#word_puzzle') do
     expect("9".word_puzzle()).to(eq("9"))
     expect("fr1ndsh1p".word_puzzle()).to(eq("fr1ndsh1p"))
   end
+  it('returns a sentence with proper spacing and vowels replaced with a dash') do
+    expect("I went to the store!".word_puzzle()).to(eq("- w-nt t- th- st-r-!"))
+  end
 
 end
